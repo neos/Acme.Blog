@@ -1,0 +1,13 @@
+{
+    "name": "acme/blog",
+    "type": "typo3-flow-package",
+    "description": "The Flow Blog Example from the Getting Started guide at https://flowframework.readthedocs.org/en/stable/TheDefinitiveGuide/PartII/index.html",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Acme\\Blog": "Classes"
+        }
+    }
+}
