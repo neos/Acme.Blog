@@ -47,6 +47,7 @@ class PostController extends ActionController {
 	/**
 	 * Displays a single post
 	 *
+	 * @Flow\IgnoreValidation("$post")
 	 * @param Post $post
 	 * @return void
 	 */

@@ -12,7 +12,7 @@
 			<f:link.action action="index" controller="Post">
 				<h1>{blog.title}</h1>
 			</f:link.action>
-			<p class="description">{blog.description}</p>
+			<p class="description">{blog.description -> f:format.crop(maxCharacters: 80)}</p>
 		</f:if>
 	</header>
 

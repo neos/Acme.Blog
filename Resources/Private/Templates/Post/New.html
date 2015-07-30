@@ -3,7 +3,7 @@
 <f:section name="MainContent">
 	<h2>Create new post</h2>
 	<f:render partial="FormErrors" arguments="{for: 'newPost'}" />
-	<f:form action="create" object="{newPost}" name="newPost">
+	<f:form action="create" objectName="newPost">
 		<f:form.hidden property="blog" value="{blog}" />
 
 		<label for="post-author">Author</label>
